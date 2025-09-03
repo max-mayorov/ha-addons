@@ -1,0 +1,3 @@
+[submodule "addon-nut"]
+	path = addon-nut
+	url = https://github.com/hassio-addons/addon-nut.git
