@@ -1,4 +1,0 @@
-[submodule "addon-nut"]
-	path = addon-nut
-	url = https://github.com/max-mayorov/addon-nut.git
-	branch = main
