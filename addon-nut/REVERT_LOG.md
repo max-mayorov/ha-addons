@@ -25,3 +25,27 @@ The current codebase maintains the pre-commit state:
 - Docker build process validated
 - Package versions confirmed: nut=2.8.1-5, nut-snmp=2.8.1-5, nut-xml=2.8.1-5
 - Repository confirmed: testing
+
+## Commit [Current]
+
+**Status**: UPDATED
+
+**Commit Message**: "Update NUT to version 2.8.3-3 (available in testing)"
+
+**Changes Made**:
+- Updated NUT package versions from `2.8.1-5` to `2.8.3-3` (current available version in testing)
+- Updated addon version from `2.8.1` to `2.8.3` in config.yaml
+- Maintained Debian `testing` repository
+
+**Reason for Change**:
+- Version `2.8.1-5` is no longer available in Debian testing repository
+- Version `2.8.3-3` is the current available version in testing
+- This resolves the Docker build error: "E: Version '2.8.1-5' for 'nut' was not found"
+
+**Files Affected**:
+- `nut/Dockerfile`
+- `nut/config.yaml`
+
+**Verification**:
+- Package versions confirmed available: nut=2.8.3-3, nut-snmp=2.8.3-3, nut-xml=2.8.3-3
+- Repository confirmed: testing

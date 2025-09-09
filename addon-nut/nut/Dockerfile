@@ -8,9 +8,9 @@ RUN \
     echo 'deb http://deb.debian.org/debian testing main' > /etc/apt/sources.list.d/testing.list \
     && apt-get update \
     && apt-get install -y --no-install-recommends\
-        nut=2.8.1-5 \
-        nut-snmp=2.8.1-5 \
-        nut-xml=2.8.1-5 \
+        nut=2.8.3-3 \
+        nut-snmp=2.8.3-3 \
+        nut-xml=2.8.3-3 \
         usbutils=1:014-1+deb12u1 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /etc/apt/sources.list.d/testing.list
