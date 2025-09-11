@@ -19,7 +19,8 @@ COPY rootfs /
 
 # Make init scripts executable
 RUN chmod +x /etc/cont-init.d/*.sh && \
-    chmod +x /etc/services.d/ups*/* 
+    chmod +x /etc/services.d/ups*/* && \
+    chmod +x /usr/bin/*
 
 
 # Build arguments
