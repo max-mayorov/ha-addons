@@ -17,6 +17,9 @@ RUN \
 # Copy root filesystem
 COPY rootfs /
 
+# Make init scripts executable
+RUN chmod +x /etc/cont-init.d/*.sh
+
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
