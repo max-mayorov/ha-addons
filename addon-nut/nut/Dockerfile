@@ -10,7 +10,7 @@ RUN \
     nut=2.8.1-5 \
     nut-snmp=2.8.1-5 \
     nut-xml=2.8.1-5 \
-    usbutils=1:014-1+deb12u1 \
+    usbutils=1:018-2 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
